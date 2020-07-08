@@ -12,7 +12,7 @@ pipeline {
     stages {
       stage("build") {
         steps {
-            sh "ssh -v"
+            sh "ssh -V"
             sh "mvn -version"
         }
       }
